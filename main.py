@@ -2,7 +2,7 @@ db_name = []
 db_phone = []
 db_age = []
 db_city = []
-db_tie = []
+db_link = []
 
 while True:
     print("0-quitter le logiciel")
@@ -26,13 +26,13 @@ while True:
         phone = input("téléphone : ")
         age = input("âge : ")
         city = input("ville habitée : ")
-        tie = input("lien avec cette personne : ")
+        link = input("lien avec cette personne : ")
 
         db_name.append(name)
         db_phone.append(phone)
         db_age.append(age)
         db_city.append(city)
-        db_tie.append(tie)
+        db_link.append(link)
 
         print()
         print("vous avez bien enregistrer cette personne dans la base de données")
@@ -51,7 +51,7 @@ while True:
                 print("le numéro de téléphone de ", search, " est : ", db_phone[nb])
                 print("l'age de ", search, " est : ", db_age[nb])
                 print("la ville de ", search, " est : ", db_city[nb])
-                print("le type de lien avec ", search, " est : ", db_tie[nb])
+                print("le type de lien avec ", search, " est : ", db_link[nb])
                 print()
 
             else:
@@ -87,13 +87,13 @@ while True:
                     phone = input("téléphone : ")
                     age = input("âge : ")
                     city = input("ville habitée : ")
-                    tie = input("lien avec cette personne : ")
+                    link = input("lien avec cette personne : ")
 
                     db_name[nb] = name
                     db_phone[nb] = phone
                     db_age[nb] = age
                     db_city[nb] = city
-                    db_tie[nb] = tie
+                    db_link[nb] = link
                     print()
                     print("vous avez bien enregistrer cette personne dans la base de données")
                     print()
