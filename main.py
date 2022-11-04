@@ -14,11 +14,8 @@ while True:
 
     if menu == 0:
         choice0 = input("êtes-vous sûr de vouloir quitter le logiciel [Y/n]? ")
-        if choice0 == "y":
+        if choice0 == "y".lower():
             quit()
-        elif choice0 == "Y":
-            quit()
-        print()
 
     elif menu == 1:
 
